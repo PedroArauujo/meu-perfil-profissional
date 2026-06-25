@@ -35,10 +35,12 @@ section {
   padding: 20px;
   border: 1px solid #d9dee3;
   border-radius: 8px;
+  transition: border-color 0.2s ease, transform 0.2s ease;
 }
 
 section:hover {
   border-color: #12355b;
+  transform: translateY(-2px);
 }
 
 h1,
@@ -78,4 +80,42 @@ footer {
   padding: 20px;
   background-color: #e8edf2;
   color: #444;
+}
+
+.sobre-mim {
+  border-left: 4px solid #12355b;
+}
+
+.lista-habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.lista-habilidades li {
+  background-color: #e8edf2;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.links-profissionais {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.links-profissionais a {
+  background-color: #12355b;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.links-profissionais a:hover {
+  background-color: #0b63ce;
 }
