@@ -119,3 +119,33 @@ footer {
 .links-profissionais a:hover {
   background-color: #0b63ce;
 }
+
+.cards-projetos {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.card-projeto {
+  flex: 1;
+  min-width: 240px;
+  background-color: #f8fafc;
+  border: 1px solid #d9dee3;
+  border-radius: 8px;
+  padding: 16px;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.card-projeto:hover {
+  border-color: #12355b;
+  transform: translateY(-2px);
+}
+
+.card-projeto h3 {
+  margin-top: 0;
+  color: #12355b;
+}
+
+.card-projeto p {
+  margin-bottom: 10px;
+}
