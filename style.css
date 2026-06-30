@@ -146,6 +146,6 @@ footer {
   color: #12355b;
 }
 
-.card-projeto p {
-  margin-bottom: 10px;
+.card-projeto p:last-child {
+  margin-bottom: 0;
 }
