@@ -1,14 +1,14 @@
 # Meu Perfil Profissional
 
-Este é meu primeiro projeto do plano de estudos para me tornar desenvolvedor full stack.
+Página pessoal desenvolvida como primeiro projeto do meu plano de estudos para me tornar desenvolvedor full stack.
 
 ## Sobre o projeto
 
-O projeto apresenta uma página pessoal simples, criada com HTML5 e CSS3, contendo informações sobre minha trajetória, objetivo profissional, tecnologias em estudo e dados de contato.
+Este projeto apresenta minha trajetória profissional, meus objetivos na área de tecnologia, as habilidades que estou desenvolvendo e meus primeiros projetos planejados para o portfólio.
 
-## Objetivo
+Este projeto também marca o início da minha transição prática de carreira para a área de desenvolvimento web.
 
-Praticar a estrutura básica de uma página web e começar a construir meu portfólio profissional no GitHub.
+A página foi criada com foco em praticar HTML5, CSS3, responsividade, organização visual e versionamento com Git e GitHub.
 
 ## Tecnologias utilizadas
 
@@ -17,30 +17,40 @@ Praticar a estrutura básica de uma página web e começar a construir meu portf
 - Git
 - GitHub
 
-## O que aprendi
+## Funcionalidades
 
-- Como criar a estrutura básica de uma página HTML
-- Como usar tags semânticas como `header`, `main`, `section` e `footer`
-- Como conectar um arquivo CSS ao HTML
-- Como organizar o conteúdo em seções
-- Como estilizar textos, cores, espaçamentos e links
-- Como documentar um projeto com README
+- Apresentação profissional
+- Seção sobre mim
+- Lista de habilidades em desenvolvimento
+- Cards de projetos
+- Links profissionais
+- Layout responsivo para telas menores
+
+## Aprendizados
+
+Durante este projeto, pratiquei:
+
+- Estrutura básica de um documento HTML
+- Uso de tags semânticas como header, main, section, article e footer
+- Estilização com CSS
+- Classes CSS
+- Flexbox
+- Cards de projetos
+- Media queries para responsividade
+- Controle de versão com Git
+- Publicação de alterações no GitHub
 
 ## Próximas melhorias
 
-- Adicionar uma foto ou avatar profissional
-- Criar cards para os projetos
-- Publicar a página no GitHub Pages
-- Melhorar a responsividade para celular
+- Criar uma versão com JavaScript
+- Adicionar modo escuro
+- Melhorar a experiência em dispositivos móveis
 
-## Status do projeto
+## Como visualizar
 
-Em desenvolvimento.
+Para visualizar o projeto, abra o arquivo index.html no navegador.
 
-## Aprendizados recentes
+Se o projeto estiver publicado no GitHub Pages, o link ficará disponível aqui:
 
-- Estrutura HTML semântica
-- Estilização com CSS
-- Layout com Flexbox
-- Responsividade com media query
-- Controle de versão com Git
+```text
+Adicionar link do GitHub Pages futuramente
