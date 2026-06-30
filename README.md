@@ -31,7 +31,7 @@ A página foi criada com foco em praticar HTML5, CSS3, responsividade, organiza�
 Durante este projeto, pratiquei:
 
 - Estrutura básica de um documento HTML
-- Uso de tags semânticas como header, main, section, article e footer
+- Uso de tags semânticas como `header`, `main`, `section`, `article` e `footer`
 - Estilização com CSS
 - Classes CSS
 - Flexbox
@@ -45,10 +45,11 @@ Durante este projeto, pratiquei:
 - Criar uma versão com JavaScript
 - Adicionar modo escuro
 - Melhorar a experiência em dispositivos móveis
+- Publicar o projeto com GitHub Pages
 
 ## Como visualizar
 
-Para visualizar o projeto, abra o arquivo index.html no navegador.
+Para visualizar o projeto, abra o arquivo `index.html` no navegador.
 
 Se o projeto estiver publicado no GitHub Pages, o link ficará disponível aqui:
 
