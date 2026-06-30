@@ -32,3 +32,15 @@ Praticar a estrutura básica de uma página web e começar a construir meu portf
 - Criar cards para os projetos
 - Publicar a página no GitHub Pages
 - Melhorar a responsividade para celular
+
+## Status do projeto
+
+Em desenvolvimento.
+
+## Aprendizados recentes
+
+- Estrutura HTML semântica
+- Estilização com CSS
+- Layout com Flexbox
+- Responsividade com media query
+- Controle de versão com Git

@@ -193,3 +193,7 @@ footer {
     min-width: 0;
   }
 }
+
+.card-projeto strong {
+  color: #12355b;
+}
