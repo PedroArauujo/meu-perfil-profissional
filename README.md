@@ -53,6 +53,10 @@ Para visualizar o projeto, abra o arquivo `index.html` no navegador.
 
 Se o projeto estiver publicado no GitHub Pages, o link ficará disponível aqui:
 
+## Registro de progresso
+
+- Semana 1: criação da página pessoal com HTML, CSS, responsividade, Git e GitHub.
+
 ## Autor
 Pedro Araújo Vieira
 GitHub: PedroArauujo
