@@ -53,5 +53,7 @@ Para visualizar o projeto, abra o arquivo `index.html` no navegador.
 
 Se o projeto estiver publicado no GitHub Pages, o link ficará disponível aqui:
 
-```text
-Adicionar link do GitHub Pages futuramente
+## Autor
+Pedro Araújo Vieira
+GitHub: PedroArauujo
+E-mail: joaopedroaraujovieira1@gmail.com
