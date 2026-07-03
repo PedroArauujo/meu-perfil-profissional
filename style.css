@@ -158,6 +158,21 @@ footer {
   color: #12355b;
 }
 
+button {
+  background-color: #12355b;
+  color: white;
+  border: 0;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0b63ce;
+}
+
 @media (max-width: 600px) {
   header {
     padding: 28px 16px;
