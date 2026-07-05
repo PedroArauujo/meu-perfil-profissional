@@ -220,3 +220,63 @@ button:hover {
 .card-projeto strong {
   color: #12355b;
 }
+
+.modo-escuro {
+  background-color: #111827;
+  color: #f9fafb;
+}
+
+.modo-escuro header {
+  background-color: #020617;
+}
+
+.modo-escuro section {
+  background-color: #1f2937;
+  border-color: #374151;
+}
+
+.modo-escuro h2,
+.modo-escuro h3 {
+  color: #93c5fd;
+}
+
+.modo-escuro footer {
+  background-color: #020617;
+  color: #f9fafb;
+}
+
+.modo-escuro .card-projeto {
+  background-color: #111827;
+  border-color: #374151;
+}
+
+.modo-escuro .lista-habilidades li {
+  background-color: #374151;
+  color: #f9fafb;
+}
+
+.modo-escuro a {
+  color: #93c5fd;
+}
+
+.modo-escuro button {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.modo-escuro button:hover {
+  background-color: #1d4ed8;
+}
+
+.modo-escuro .links-profissionais a {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.modo-escuro .links-profissionais a:hover {
+  background-color: #1d4ed8;
+}
+
+header button {
+  margin-top: 16px;
+}
