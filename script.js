@@ -21,3 +21,43 @@ if (botaoTema) {
     }
   });
 }
+
+const projetos = [{
+    titulo: "Site pessoal responsivo",
+    descricao: "Projeto criado para apresentar minha trajetória, objetivos profissionais, habilidades e links de contato.",
+    tecnologias: "HTML5, CSS3 e GitHub"},
+  {
+    titulo: "Sistema simples de cadastro de clientes",
+    descricao: "Projeto futuro para praticar lógica de programação, formulários, banco de dados e organização de informações.",
+    tecnologias: "Python, SQLite e Django"},
+  {
+    titulo: "Dashboard de vendas",
+    descricao: "Projeto futuro para simular indicadores comerciais, relatórios e acompanhamento de metas em ambiente corporativo.",
+    tecnologias: "HTML5, CSS3, JavaScript e bibliotecas de gráficos"},
+  {
+    titulo: "Sistema de controle de metas",
+    descricao: "Projeto futuro para registrar metas, acompanhar resultados e visualizar desempenho de equipes comerciais.",
+    tecnologias: "Python, Django, MySQL e visualização de dados"},
+  {
+  titulo: "Lista de tarefas com JavaScript",
+  descricao: "Projeto futuro para praticar eventos, manipulação do DOM e armazenamento local no navegador.",
+  tecnologias: "HTML5, CSS3, JavaScript e localStorage"}]
+
+const listaProjetos = document.getElementById("lista-projetos");
+
+if (listaProjetos) {
+  projetos.forEach(function (projeto) {
+    const card = document.createElement("article");
+
+    card.classList.add("card-projeto");
+
+    card.innerHTML = `
+      <h3>${projeto.titulo}</h3>
+      <p>${projeto.descricao}</p>
+      <p><strong>Tecnologias:</strong> ${projeto.tecnologias}</p>
+    `;
+
+    listaProjetos.appendChild(card);
+  });
+}
+  
