@@ -215,6 +215,14 @@ button:hover {
     flex-basis: 100%;
     min-width: 0;
   }
+
+  .filtros-projetos {
+    flex-direction: column;
+  }
+
+  .botao-filtro {
+  width: 100%;
+  }  
 }
 
 .card-projeto strong {
@@ -279,4 +287,34 @@ button:hover {
 
 header button {
   margin-top: 16px;
+}
+
+.filtros-projetos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.botao-filtro {
+  background-color: #e8edf2;
+  color: #12355b;
+}
+
+.botao-filtro:hover {
+  background-color: #d9dee3;
+}
+
+.botao-filtro.ativo {
+  background-color: #12355b;
+  color: white;
+}
+
+.modo-escuro .botao-filtro {
+  background-color: #374151;
+  color: #f9fafb;
+}
+
+.modo-escuro .botao-filtro.ativo {
+  background-color: #2563eb;
 }

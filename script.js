@@ -45,8 +45,16 @@ const projetos = [{
 
 const listaProjetos = document.getElementById("lista-projetos");
 
-if (listaProjetos) {
-  projetos.forEach(function (projeto) {
+const listaProjetos = document.getElementById("lista-projetos");
+
+function renderizarProjetos(lista) {
+  if (!listaProjetos) {
+    return;
+  }
+
+  listaProjetos.innerHTML = "";
+
+  lista.forEach(function (projeto) {
     const card = document.createElement("article");
 
     card.classList.add("card-projeto");
@@ -60,4 +68,31 @@ if (listaProjetos) {
     listaProjetos.appendChild(card);
   });
 }
+
+renderizarProjetos(projetos);
+
+const botoesFiltro = document.querySelectorAll(".botao-filtro");
+
+botoesFiltro.forEach(function (botaoFiltro) {
+  botaoFiltro.addEventListener("click", function () {
+    const filtro = botaoFiltro.dataset.filtro;
+
+    botoesFiltro.forEach(function (botao) {
+      botao.classList.remove("ativo");
+    });
+
+    botaoFiltro.classList.add("ativo");
+
+    if (filtro === "todos") {
+      renderizarProjetos(projetos);
+      return;
+    }
+
+    const projetosFiltrados = projetos.filter(function (projeto) {
+      return projeto.tecnologias.includes(filtro);
+    });
+
+    renderizarProjetos(projetosFiltrados);
+  });
+});
   
