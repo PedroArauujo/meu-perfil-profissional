@@ -43,7 +43,6 @@ const projetos = [{
   descricao: "Projeto futuro para praticar eventos, manipulação do DOM e armazenamento local no navegador.",
   tecnologias: "HTML5, CSS3, JavaScript e localStorage"}]
 
-const listaProjetos = document.getElementById("lista-projetos");
 
 const listaProjetos = document.getElementById("lista-projetos");
 
